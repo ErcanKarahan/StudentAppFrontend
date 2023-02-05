@@ -11,6 +11,8 @@ import { StudentregisterComponent } from './components/studentregister/studentre
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  {path: 'home', component: HomeComponent},
+  { path: 'sign-in', component: SignInComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'home', component: HomeComponent },
   { path: 'activestudents', component: ActivestudentsComponent },
